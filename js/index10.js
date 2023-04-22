@@ -1,7 +1,7 @@
-let num5 = Number(prompt("Введіть число"));
-while (num5 < 100) {
-  num5 = Number(prompt("Введіть число"));
+let number = Number(prompt("Введіть число"));
+while (number < 100) {
+  number = Number(prompt("Введіть число"));
 }
-if (num5 > 100) {
+if (number > 100) {
   console.log("Число більше 100");
 }
